@@ -1,0 +1,237 @@
+{
+  "contractName": "Name",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "siteName",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.1+commit.f4a555be\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"siteName\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Name.sol\":\"Name\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Name.sol\":{\"keccak256\":\"0x0e5ec03671dc0d7de0c55045f6bb318cc20f9345d2c944e54ddb43ecce607646\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://871652473e545e515b0735bf790742eee1d96bb9a4f0aa791a301842fe20dfac\",\"dweb:/ipfs/QmUddSKBGsn2FNh3rTaRhNMB76GMaY2s53rijoF3U1XFzi\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600c81526020017f41726162696320446170707300000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b506100ff565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b5b808211156100fb5760008160009055506001016100e3565b5090565b6101878061010e6000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80633873661d14610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea2646970667358221220bb529d1a40c1e0cf1e83fff93055eeba7ab89782463c84552187c869825b44e764736f6c63430007010033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c80633873661d14610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea2646970667358221220bb529d1a40c1e0cf1e83fff93055eeba7ab89782463c84552187c869825b44e764736f6c63430007010033",
+  "immutableReferences": {},
+  "sourceMap": "70:63:0:-:0;;;91:39;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;70:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "70:63:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;91:39;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity >=0.5.0 <0.9.0;\n\ncontract Name {\n\n    string public siteName = \"Arabic Dapps\";\n}",
+  "sourcePath": "/Main Hard/Study/Flutter_BockChain_Dapps_Starter/flutter_dapps_starter/contracts/Name.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Name.sol",
+    "exportedSymbols": {
+      "Name": [
+        5
+      ]
+    },
+    "id": 6,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "37:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "Name",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "3873661d",
+            "id": 4,
+            "mutability": "mutable",
+            "name": "siteName",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "91:39:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "91:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "hexValue": "417261626963204461707073",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "116:14:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_6b97b214c6b5f927d2915e3deeb9bc212bbc097b9429d040818a2732b63647d8",
+                "typeString": "literal_string \"Arabic Dapps\""
+              },
+              "value": "Arabic Dapps"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 6,
+        "src": "70:63:0"
+      }
+    ],
+    "src": "37:96:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Name.sol",
+      "exportedSymbols": {
+        "Name": [
+          5
+        ]
+      },
+      "license": "GPL-3.0"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "37:31:0"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            5
+          ],
+          "name": "Name",
+          "scope": 6
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "3873661d",
+              "mutability": "mutable",
+              "name": "siteName",
+              "scope": 5,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "91:6:0"
+              },
+              {
+                "attributes": {
+                  "hexvalue": "417261626963204461707073",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "token": "string",
+                  "type": "literal_string \"Arabic Dapps\"",
+                  "value": "Arabic Dapps"
+                },
+                "id": 3,
+                "name": "Literal",
+                "src": "116:14:0"
+              }
+            ],
+            "id": 4,
+            "name": "VariableDeclaration",
+            "src": "91:39:0"
+          }
+        ],
+        "id": 5,
+        "name": "ContractDefinition",
+        "src": "70:63:0"
+      }
+    ],
+    "id": 6,
+    "name": "SourceUnit",
+    "src": "37:96:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.1+commit.f4a555be.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x387c23AFB627bC568852C2d8Da6b7f2ec1B2e1e3",
+      "transactionHash": "0x1da5b0ff4059814a43385472cb1340b0b962a9f14213f388389e594ed789e289"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-09T08:35:15.384Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
